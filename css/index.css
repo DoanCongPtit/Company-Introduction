@@ -1,0 +1,188 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#head img {
+  margin-top: 5px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#body img {
+  padding-top: 20px;
+  max-width: 650px;
+  max-height: 600px;
+}
+
+.navbar-nav {
+  background-color: white;
+  font-size: 18px;
+  float: none;
+  text-align: center;
+}
+
+.navbar-nav li,
+a {
+  padding-left: 20px;
+  float: none;
+  display: inline-block;
+  color: black;
+}
+
+.navbar-nav a:hover {
+  font-size: large;
+}
+
+.brand {
+  margin-top: 100px;
+}
+
+.left-brand > h1 {
+  padding-top: 20px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.left-brand > h2 {
+  padding-left: 5px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+#vidIntro {
+  background-color: azure;
+}
+
+#vidIntro > h1 {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.bigIntroText {
+  font-weight: bold;
+}
+
+.introText {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+#listProduct > h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.product > i {
+  font-size: 25px;
+}
+
+.blockProduct {
+  margin-left: 46px;
+  padding-top: 20px;
+  padding-left: 30px;
+  background-color: white;
+  height: 220px;
+  width: 330px;
+  top: 0;
+  border-radius: 8px;
+  transition: top ease 0.5s;
+}
+
+.blockProduct:hover {
+  background-color: dodgerblue;
+  color: white;
+  top: -15px;
+}
+
+#introCarousel h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+#myCarousel {
+  height: 450px;
+}
+
+#introCarousel {
+  background-color: azure;
+}
+
+.carousel-indicators li {
+  background-color: black;
+}
+
+.carousel-indicators li.active {
+  background-color: crimson;
+}
+
+.carousel-inner > .item > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-caption {
+  position: static;
+}
+.carousel-caption h3 {
+  color: black;
+  font-size: 25px;
+}
+
+.carousel-caption p {
+  color: black;
+  font-size: 20px;
+}
+
+#chartIntro h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#donutchart {
+  margin-left: 220px;
+}
+
+/* #footer {
+  background-color: gray;
+  text-decoration: none;
+  text-align: left;
+}
+
+.list-unstyled li {
+  text-align: left;
+  color: grey;
+  font-size: medium;
+}
+
+.footerIntro p {
+  text-align: left;
+  font-size: medium;
+} */
+
+
+

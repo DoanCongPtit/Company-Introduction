@@ -1,0 +1,24 @@
+<nav class="navbar navbar-nav navbar-fixed-top">
+  <img id="logo" src="image/logo80x24-01.png" alt="" />
+  <ul class="nav navbar-nav">
+    <li><a href="#">Trang chủ</a></li>
+    <li><a href="#brandIntro">Về chúng tôi</a></li>
+    <li><a href="#introCarousel">Đội ngũ</a></li>
+    <li><a href="#listProduct">Sản phẩm</a></li>
+    <li><a href="#chartIntro">Cơ cấu tổ chức</a></li>
+    <li><a href="#linkIntro">Liên hệ</a></li>
+    <li><a href="../form.html">Tuyển dụng</a></li>
+  </ul>
+</nav>
+
+<script>
+  $(window).scroll(function () {
+    var x = $(window).scrollTop();
+
+    if (x >= 42) {
+      $("#logo").hide();
+    } else {
+      $("#logo").show();
+    }
+  });
+</script>
